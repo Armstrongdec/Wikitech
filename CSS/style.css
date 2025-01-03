@@ -1,0 +1,421 @@
+body {
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+/* Header */
+header {
+    border: 1px solid black;
+    box-shadow: 3px 3px 3px;
+    background-color: rgb(164, 164, 173);
+    color: black;
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+    position: sticky;
+    top: 0px;
+}
+
+.title {
+    text-shadow: 3px 3px 3px #00D1A9;
+    font: 1em Arial;
+    text-align: left;
+    padding-left: 15px;
+}
+
+.style{
+    color: red;
+}
+
+.nav__link {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: -40px;
+}
+
+.nav__link--purple{
+    padding-right: 40px;
+}
+
+/* SECTION */
+section div button{
+    font-size: 1.5em;
+    background: rgb(201, 46, 106);
+    border: 1px solid rgb(201, 46, 106);
+    padding: 15px;
+    margin-left: 750px;
+    margin-top: 90px;
+    -webkit-animation: mybutton 1s infinit alternate;
+}
+-webkit-@keyframes mybutton {
+    from{
+        color: black;
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+p{
+    text-align: left;
+}
+section h1{
+    text-align: center;
+}
+section div img{
+    width: 100%;
+    height: 450px;
+    margin-top: 6px;
+}
+section div .nomsport, .nomsoptions{
+    margin-top: -250px;
+    color: white;
+}
+
+.bienvenue{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 2.5em;
+    text-align: center;
+    color: rgb(143, 145, 168);
+    margin-top: -250px;
+}
+
+.introduction{
+    font-family: Arial, Helvetica, Sans-Serif;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 8px 8px;
+    padding: 5px;
+    margin-top: 80px;
+    
+}
+.introduction h1{
+    font-size: 1.5em;
+}
+.introduction p, ul{
+    font-size: 1.2em;
+}
+.block1, .block2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.block_mg, .block_ma, .block_elec, .block_eq{
+    border: 1px solid black;
+    border-radius: 6px 3px;
+    padding: 10px;
+    width: 300px;
+    height: 300px;
+}
+
+.block_foot, .block_basket, .block_course, .block_tennis{
+    border: 1px solid black;
+    border-radius: 6px 3px;
+    width: 300px;
+    height: 300px;
+}
+
+.block1 img, .block2 img{
+    margin-top: 0px;
+    width: 300px;
+    height: 300px;
+    border-radius: 6px 3px;
+}
+
+/* Footer */
+footer h1{
+    border-top: 1px solid red;
+    text-align: center;
+    background-color: rgb(153, 160, 163);
+    color: whitesmoke;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px ;
+    margin-bottom: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+/* medias querry */
+@media(max-width: 900px){
+    .title{
+        text-align: center;
+    }
+    .nav__link{
+        margin-top: -10px;
+        text-align: center;
+    }
+    section{
+        text-align: center;
+    }
+    section div button{
+        background: rgb(201, 46, 106);
+        border: 1px solid rgb(201, 46, 106);
+        padding: 15px;
+        margin-left: 0px;
+        margin-top: 51px;
+        width: 100%;
+    }
+    section div .bienvenue{
+        margin-top: -210px;
+    }
+    .introduction{
+        margin-top: 30px;
+    }
+    section div img{
+        width: 100%;
+        height: 270px;
+        margin-top: 6px;
+    }
+    section div .nomsport, .nomsoptions{
+        margin-top: -100px;
+    }
+    .block1, .block2{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-top: 20px;
+              
+    }
+    
+    .block_mg, .block_ma, .block_elec, .block_eq{
+        padding: 5px;
+        width: 200px;
+        height: 200px;
+        margin-top: 20px;
+    }
+    
+    .block_foot, .block_basket, .block_course, .block_tennis{
+        padding: 5px;
+        margin-top: 20px;
+        width: 200px;
+        height: 200px;
+    }
+    .block1 img, .block2 img{
+        padding-top: 5px;
+        margin-top: -5px;
+        width: 200px;
+        height: 200px;
+    }
+    footer{
+        font-size: 0.9em;
+    }
+}body {
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+/* Header */
+header {
+    border: 1px solid black;
+    box-shadow: 3px 3px 3px;
+    background-color: rgb(164, 164, 173);
+    color: black;
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+    position: sticky;
+    top: 0px;
+}
+
+.title {
+    text-shadow: 3px 3px 3px #00D1A9;
+    font: 1em Arial;
+    text-align: left;
+    padding-left: 15px;
+}
+
+.style{
+    color: red;
+}
+
+.nav__link {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: -40px;
+}
+
+.nav__link--purple{
+    padding-right: 40px;
+}
+
+/* SECTION */
+section div button{
+    font-size: 1.5em;
+    background: rgb(201, 46, 106);
+    border: 1px solid rgb(201, 46, 106);
+    padding: 15px;
+    margin-left: 750px;
+    margin-top: 90px;
+    -webkit-animation: mybutton 1s infinit alternate;
+}
+-webkit-@keyframes mybutton {
+    from{
+        color: black;
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+p{
+    text-align: left;
+}
+section h1{
+    text-align: center;
+}
+section div img{
+    width: 100%;
+    height: 450px;
+    margin-top: 6px;
+}
+section div .nomsport, .nomsoptions{
+    margin-top: -250px;
+    color: white;
+}
+
+.bienvenue{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 2.5em;
+    text-align: center;
+    color: rgb(143, 145, 168);
+    margin-top: -250px;
+}
+
+.introduction{
+    font-family: Arial, Helvetica, Sans-Serif;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 8px 8px;
+    padding: 5px;
+    margin-top: 80px;
+    
+}
+.introduction h1{
+    font-size: 1.5em;
+}
+.introduction p, ul{
+    font-size: 1.2em;
+}
+.block1, .block2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.block_mg, .block_ma, .block_elec, .block_eq{
+    border: 1px solid black;
+    border-radius: 6px 3px;
+    padding: 10px;
+    width: 300px;
+    height: 300px;
+}
+
+.block_foot, .block_basket, .block_course, .block_tennis{
+    border: 1px solid black;
+    border-radius: 6px 3px;
+    width: 300px;
+    height: 300px;
+}
+
+.block1 img, .block2 img{
+    margin-top: 0px;
+    width: 300px;
+    height: 300px;
+    border-radius: 6px 3px;
+}
+
+/* Footer */
+footer h1{
+    border-top: 1px solid red;
+    text-align: center;
+    background-color: rgb(153, 160, 163);
+    color: whitesmoke;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px ;
+    margin-bottom: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+/* medias querry */
+@media(max-width: 900px){
+    .title{
+        text-align: center;
+    }
+    .nav__link{
+        margin-top: -10px;
+        text-align: center;
+    }
+    section{
+        text-align: center;
+    }
+    section div button{
+        background: rgb(201, 46, 106);
+        border: 1px solid rgb(201, 46, 106);
+        padding: 15px;
+        margin-left: 0px;
+        margin-top: 51px;
+        width: 100%;
+    }
+    section div .bienvenue{
+        margin-top: -210px;
+    }
+    .introduction{
+        margin-top: 30px;
+    }
+    section div img{
+        width: 100%;
+        height: 270px;
+        margin-top: 6px;
+    }
+    section div .nomsport, .nomsoptions{
+        margin-top: -100px;
+    }
+    .block1, .block2{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-top: 20px;
+              
+    }
+    
+    .block_mg, .block_ma, .block_elec, .block_eq{
+        padding: 5px;
+        width: 200px;
+        height: 200px;
+        margin-top: 20px;
+    }
+    
+    .block_foot, .block_basket, .block_course, .block_tennis{
+        padding: 5px;
+        margin-top: 20px;
+        width: 200px;
+        height: 200px;
+    }
+    .block1 img, .block2 img{
+        padding-top: 5px;
+        margin-top: -5px;
+        width: 200px;
+        height: 200px;
+    }
+    footer{
+        font-size: 0.9em;
+    }
+}
